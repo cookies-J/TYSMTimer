@@ -1,0 +1,6 @@
+framework module TYSMTimer {
+  umbrella header "TYSMTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -64,9 +64,9 @@
 		AA7EE06323EB963EB5BA8C42 /* Pods_TYSMTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYSMTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F1F808775358FF8BCA8C8 /* Pods-TYSMTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSMTimer_Example.debug.xcconfig"; path = "Target Support Files/Pods-TYSMTimer_Example/Pods-TYSMTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEA27D9BFCBD7F0226ADF50E /* Pods-TYSMTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYSMTimer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TYSMTimer_Tests/Pods-TYSMTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEEE7BAD891E19175EFD94B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EDEA91AA38A8BECD56AB97A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FDE11F18413215EF30FCBBA7 /* TYSMTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TYSMTimer.podspec; path = ../TYSMTimer.podspec; sourceTree = "<group>"; };
+		BEEE7BAD891E19175EFD94B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDEA91AA38A8BECD56AB97A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FDE11F18413215EF30FCBBA7 /* TYSMTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TYSMTimer.podspec; path = ../TYSMTimer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				BEA27D9BFCBD7F0226ADF50E /* Pods-TYSMTimer_Tests.debug.xcconfig */,
 				652E261E2FC595C04DF8C6E2 /* Pods-TYSMTimer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

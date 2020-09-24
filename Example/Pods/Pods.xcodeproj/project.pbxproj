@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E7212832BDACEE967BD10E0A1C7953B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D4AE85381B721A210B7ABCB6036AAB4 /* TYSMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AD4F0677EEA62D43A82D0BDDA0B175 /* TYSMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71AB5E116FA692E1DEE655030DCBB306 /* Pods-TYSMTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D00B4A1575395E84852F9C87215881 /* Pods-TYSMTimer_Example-dummy.m */; };
+		77792B3CCFC746D65DFD84B1D89A5BEA /* TYSMTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C52CD0F9AABEB53AE836DC335453EDA7 /* TYSMTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80FF28709C43FB9DB19B65D33AE366F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C2FEA577A7203F903D8A013D7997B95 /* Pods-TYSMTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AECB492F854BF528341FE094DA1D54 /* Pods-TYSMTimer_Tests-dummy.m */; };
+		8DA23ABA42CD80D86843634273CF8535 /* TYSMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB06FCFF3F0545C16FBB6EEBEE627B /* TYSMTimer.m */; };
+		9DF3742A72F98526DDE3C06482462F0E /* Pods-TYSMTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8948141AD934295D744794256CB54543 /* Pods-TYSMTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7D40F579AD8BF0B883B1B469E23B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA17A421AF4FFB1E8F093AEA345A7592 /* TYSMTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FDE598730D7807DA570FA411FB97CA /* TYSMTimer-dummy.m */; };
+		D3D413C8018AD80B896CB7AEC31DD94F /* Pods-TYSMTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6C98B9403E8B0661997107E883B747 /* Pods-TYSMTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499449694038A0C7862E77ED25E0D4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CD6A556BA69184B4B95B5FE6023A50;
+			remoteInfo = TYSMTimer;
+		};
+		B7DF399A2FA284165C177A75F06C48CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010552BC2F4614B57A296568868BEC92;
+			remoteInfo = "Pods-TYSMTimer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D00B4A1575395E84852F9C87215881 /* Pods-TYSMTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYSMTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		17AD4F0677EEA62D43A82D0BDDA0B175 /* TYSMTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYSMTimer.h; path = TYSMTimer/Classes/TYSMTimer.h; sourceTree = "<group>"; };
+		183A3D8D1CFF09A0422ABAC489411ECA /* TYSMTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYSMTimer.debug.xcconfig; sourceTree = "<group>"; };
+		210F8E3FBAF4AAB15AAE927B1AA622D3 /* TYSMTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYSMTimer.modulemap; sourceTree = "<group>"; };
+		2341D2B35802CBBEA8371A463AEDE7BF /* TYSMTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYSMTimer-prefix.pch"; sourceTree = "<group>"; };
+		29FDE598730D7807DA570FA411FB97CA /* TYSMTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYSMTimer-dummy.m"; sourceTree = "<group>"; };
+		2B39CEDA26A9F9EA74E67183D9CC5E97 /* TYSMTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYSMTimer.release.xcconfig; sourceTree = "<group>"; };
+		2EAC236E94CD1DBBDE88ED95F20B386B /* TYSMTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYSMTimer.framework; path = TYSMTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEEA25BB23785EAC98C133B6F0229FC /* Pods_TYSMTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYSMTimer_Tests.framework; path = "Pods-TYSMTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4243C6F08AEBF3F020512FF7DC4638AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4EDA7FA51AFF420B6F3B321FE8DF5DDD /* Pods-TYSMTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYSMTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67EFC5B9E5C29073FF0DBBCE8F80D463 /* TYSMTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TYSMTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		713AD6FEBDCE1654F4D603A8C410F142 /* Pods-TYSMTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYSMTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		7328FB99632C3F4A74A4BD2E512BB9A6 /* Pods-TYSMTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYSMTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77A295CC123E87EC85FB6F16BFB56746 /* Pods-TYSMTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYSMTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		875EB95F1494BB38749E2E72826BC0B2 /* Pods-TYSMTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYSMTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88265BA12E88E8AF7C8CAA014C2CA0CD /* Pods-TYSMTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYSMTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		8948141AD934295D744794256CB54543 /* Pods-TYSMTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYSMTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8AC432D322FDE7F3EB6B2ADE92B3142A /* Pods_TYSMTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYSMTimer_Example.framework; path = "Pods-TYSMTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6C98B9403E8B0661997107E883B747 /* Pods-TYSMTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYSMTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		8FEB06FCFF3F0545C16FBB6EEBEE627B /* TYSMTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYSMTimer.m; path = TYSMTimer/Classes/TYSMTimer.m; sourceTree = "<group>"; };
+		9980AD68A82EF8B837CC54E3D6E4BA17 /* Pods-TYSMTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYSMTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AB459B0486C725BE5DE2B244754C183 /* Pods-TYSMTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYSMTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A181DAD40CAC1FE5CA463196D69BC21F /* TYSMTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYSMTimer-Info.plist"; sourceTree = "<group>"; };
+		A1AECB492F854BF528341FE094DA1D54 /* Pods-TYSMTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYSMTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1A8BE7DAC6A5A528F7CC6AE9A4A98C9 /* Pods-TYSMTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYSMTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C52CD0F9AABEB53AE836DC335453EDA7 /* TYSMTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYSMTimer-umbrella.h"; sourceTree = "<group>"; };
+		CA1CE8ADE7F97D1A51D35A81A040341A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E87025DF5DCAF4D3DD9A0E692754A64D /* Pods-TYSMTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYSMTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		F5A9750C07F20E26C363B2F1485F5122 /* Pods-TYSMTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYSMTimer_Example.modulemap"; sourceTree = "<group>"; };
+		FB39AF3DE4011809EF36B3F044E93CEE /* Pods-TYSMTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYSMTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FF4ACDAA161BE82E2C998F461942035A /* Pods-TYSMTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYSMTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341D8C949F949B1E84925AD1508309DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7212832BDACEE967BD10E0A1C7953B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968492B57E50B8D0EE9C538EB4F86022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7D40F579AD8BF0B883B1B469E23B3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6481E725AD3D96DE71D5D6BB8826418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FF28709C43FB9DB19B65D33AE366F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239B921D0894D27E556D252FEF2392DB /* TYSMTimer */ = {
+			isa = PBXGroup;
+			children = (
+				17AD4F0677EEA62D43A82D0BDDA0B175 /* TYSMTimer.h */,
+				8FEB06FCFF3F0545C16FBB6EEBEE627B /* TYSMTimer.m */,
+				2ABC36ED705AA03FF75E37BF75657856 /* Pod */,
+				F7C4630B3ED114F507BE81B00CD0D0C1 /* Support Files */,
+			);
+			name = TYSMTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2ABC36ED705AA03FF75E37BF75657856 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4243C6F08AEBF3F020512FF7DC4638AE /* LICENSE */,
+				CA1CE8ADE7F97D1A51D35A81A040341A /* README.md */,
+				67EFC5B9E5C29073FF0DBBCE8F80D463 /* TYSMTimer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		46E517D0CDC27434C4A600FA3729D729 /* Pods-TYSMTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F5A9750C07F20E26C363B2F1485F5122 /* Pods-TYSMTimer_Example.modulemap */,
+				C1A8BE7DAC6A5A528F7CC6AE9A4A98C9 /* Pods-TYSMTimer_Example-acknowledgements.markdown */,
+				4EDA7FA51AFF420B6F3B321FE8DF5DDD /* Pods-TYSMTimer_Example-acknowledgements.plist */,
+				01D00B4A1575395E84852F9C87215881 /* Pods-TYSMTimer_Example-dummy.m */,
+				FB39AF3DE4011809EF36B3F044E93CEE /* Pods-TYSMTimer_Example-frameworks.sh */,
+				88265BA12E88E8AF7C8CAA014C2CA0CD /* Pods-TYSMTimer_Example-Info.plist */,
+				8D6C98B9403E8B0661997107E883B747 /* Pods-TYSMTimer_Example-umbrella.h */,
+				875EB95F1494BB38749E2E72826BC0B2 /* Pods-TYSMTimer_Example.debug.xcconfig */,
+				7328FB99632C3F4A74A4BD2E512BB9A6 /* Pods-TYSMTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-TYSMTimer_Example";
+			path = "Target Support Files/Pods-TYSMTimer_Example";
+			sourceTree = "<group>";
+		};
+		7703C0BFCD3FF7B6EE7F80C25A3AD946 /* Pods-TYSMTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				713AD6FEBDCE1654F4D603A8C410F142 /* Pods-TYSMTimer_Tests.modulemap */,
+				9980AD68A82EF8B837CC54E3D6E4BA17 /* Pods-TYSMTimer_Tests-acknowledgements.markdown */,
+				9AB459B0486C725BE5DE2B244754C183 /* Pods-TYSMTimer_Tests-acknowledgements.plist */,
+				A1AECB492F854BF528341FE094DA1D54 /* Pods-TYSMTimer_Tests-dummy.m */,
+				E87025DF5DCAF4D3DD9A0E692754A64D /* Pods-TYSMTimer_Tests-Info.plist */,
+				8948141AD934295D744794256CB54543 /* Pods-TYSMTimer_Tests-umbrella.h */,
+				FF4ACDAA161BE82E2C998F461942035A /* Pods-TYSMTimer_Tests.debug.xcconfig */,
+				77A295CC123E87EC85FB6F16BFB56746 /* Pods-TYSMTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYSMTimer_Tests";
+			path = "Target Support Files/Pods-TYSMTimer_Tests";
+			sourceTree = "<group>";
+		};
+		8BD4B99517097D2CBA2FFF48E906CFFB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239B921D0894D27E556D252FEF2392DB /* TYSMTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8BD4B99517097D2CBA2FFF48E906CFFB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E2D53045A79FE6B8F246ADF6D29AEADF /* Products */,
+				D37F687598B40645866894ED915B404F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D37F687598B40645866894ED915B404F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E517D0CDC27434C4A600FA3729D729 /* Pods-TYSMTimer_Example */,
+				7703C0BFCD3FF7B6EE7F80C25A3AD946 /* Pods-TYSMTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2D53045A79FE6B8F246ADF6D29AEADF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC432D322FDE7F3EB6B2ADE92B3142A /* Pods_TYSMTimer_Example.framework */,
+				2FEEA25BB23785EAC98C133B6F0229FC /* Pods_TYSMTimer_Tests.framework */,
+				2EAC236E94CD1DBBDE88ED95F20B386B /* TYSMTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7C4630B3ED114F507BE81B00CD0D0C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				210F8E3FBAF4AAB15AAE927B1AA622D3 /* TYSMTimer.modulemap */,
+				29FDE598730D7807DA570FA411FB97CA /* TYSMTimer-dummy.m */,
+				A181DAD40CAC1FE5CA463196D69BC21F /* TYSMTimer-Info.plist */,
+				2341D2B35802CBBEA8371A463AEDE7BF /* TYSMTimer-prefix.pch */,
+				C52CD0F9AABEB53AE836DC335453EDA7 /* TYSMTimer-umbrella.h */,
+				183A3D8D1CFF09A0422ABAC489411ECA /* TYSMTimer.debug.xcconfig */,
+				2B39CEDA26A9F9EA74E67183D9CC5E97 /* TYSMTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYSMTimer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07AC0AC3FE2E713A186C146BA08DB15E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77792B3CCFC746D65DFD84B1D89A5BEA /* TYSMTimer-umbrella.h in Headers */,
+				3D4AE85381B721A210B7ABCB6036AAB4 /* TYSMTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95415CA8879901A1A4CC60F77D4B22AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3742A72F98526DDE3C06482462F0E /* Pods-TYSMTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14650E39BDF11AD22293B71B0A8A28F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D413C8018AD80B896CB7AEC31DD94F /* Pods-TYSMTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		010552BC2F4614B57A296568868BEC92 /* Pods-TYSMTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E922C271CFB6A5712C6FBD15A560D91C /* Build configuration list for PBXNativeTarget "Pods-TYSMTimer_Example" */;
+			buildPhases = (
+				D14650E39BDF11AD22293B71B0A8A28F /* Headers */,
+				224B7AAE49875D20C14A2C5025D4CE5A /* Sources */,
+				341D8C949F949B1E84925AD1508309DE /* Frameworks */,
+				530AB7C4E0816016655677ABECAAE33A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223E7600A36E09130011DF256F09B24D /* PBXTargetDependency */,
+			);
+			name = "Pods-TYSMTimer_Example";
+			productName = "Pods-TYSMTimer_Example";
+			productReference = 8AC432D322FDE7F3EB6B2ADE92B3142A /* Pods_TYSMTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		07CD6A556BA69184B4B95B5FE6023A50 /* TYSMTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1320A8729500BD9E387D2FCDB73A02 /* Build configuration list for PBXNativeTarget "TYSMTimer" */;
+			buildPhases = (
+				07AC0AC3FE2E713A186C146BA08DB15E /* Headers */,
+				2AFF7AC4843B6AB5925272ECFB218EFD /* Sources */,
+				E6481E725AD3D96DE71D5D6BB8826418 /* Frameworks */,
+				1532490862A8D6157447EA0FDFD40429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYSMTimer;
+			productName = TYSMTimer;
+			productReference = 2EAC236E94CD1DBBDE88ED95F20B386B /* TYSMTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E3E1558EAD7CD1E6C3F57D92492BDE0 /* Pods-TYSMTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59E0C81593383919A12CE9003CE53CD /* Build configuration list for PBXNativeTarget "Pods-TYSMTimer_Tests" */;
+			buildPhases = (
+				95415CA8879901A1A4CC60F77D4B22AC /* Headers */,
+				928A5FFA73FD4BF8001E5BA066B969B7 /* Sources */,
+				968492B57E50B8D0EE9C538EB4F86022 /* Frameworks */,
+				6EECF50094983EB9E6FD6078880FD525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322912BCE44416F53A072C17CDBB25FE /* PBXTargetDependency */,
+			);
+			name = "Pods-TYSMTimer_Tests";
+			productName = "Pods-TYSMTimer_Tests";
+			productReference = 2FEEA25BB23785EAC98C133B6F0229FC /* Pods_TYSMTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E2D53045A79FE6B8F246ADF6D29AEADF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010552BC2F4614B57A296568868BEC92 /* Pods-TYSMTimer_Example */,
+				0E3E1558EAD7CD1E6C3F57D92492BDE0 /* Pods-TYSMTimer_Tests */,
+				07CD6A556BA69184B4B95B5FE6023A50 /* TYSMTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1532490862A8D6157447EA0FDFD40429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530AB7C4E0816016655677ABECAAE33A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EECF50094983EB9E6FD6078880FD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224B7AAE49875D20C14A2C5025D4CE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AB5E116FA692E1DEE655030DCBB306 /* Pods-TYSMTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFF7AC4843B6AB5925272ECFB218EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA17A421AF4FFB1E8F093AEA345A7592 /* TYSMTimer-dummy.m in Sources */,
+				8DA23ABA42CD80D86843634273CF8535 /* TYSMTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928A5FFA73FD4BF8001E5BA066B969B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2FEA577A7203F903D8A013D7997B95 /* Pods-TYSMTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223E7600A36E09130011DF256F09B24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYSMTimer;
+			target = 07CD6A556BA69184B4B95B5FE6023A50 /* TYSMTimer */;
+			targetProxy = 499449694038A0C7862E77ED25E0D4E6 /* PBXContainerItemProxy */;
+		};
+		322912BCE44416F53A072C17CDBB25FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TYSMTimer_Example";
+			target = 010552BC2F4614B57A296568868BEC92 /* Pods-TYSMTimer_Example */;
+			targetProxy = B7DF399A2FA284165C177A75F06C48CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D9C6679AA44C2BC84FCB338E1BF55BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4ACDAA161BE82E2C998F461942035A /* Pods-TYSMTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYSMTimer_Tests/Pods-TYSMTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYSMTimer_Tests/Pods-TYSMTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E90F99594E729BC3936CBFE8010603C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B39CEDA26A9F9EA74E67183D9CC5E97 /* TYSMTimer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYSMTimer/TYSMTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYSMTimer/TYSMTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYSMTimer/TYSMTimer.modulemap";
+				PRODUCT_MODULE_NAME = TYSMTimer;
+				PRODUCT_NAME = TYSMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E8814AF9F3F998C4118B094E614CDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7328FB99632C3F4A74A4BD2E512BB9A6 /* Pods-TYSMTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYSMTimer_Example/Pods-TYSMTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYSMTimer_Example/Pods-TYSMTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56C37AED72C0FF7F1EC2E03DD26DCFC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A295CC123E87EC85FB6F16BFB56746 /* Pods-TYSMTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYSMTimer_Tests/Pods-TYSMTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYSMTimer_Tests/Pods-TYSMTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94F24149DD6346ED72200C314F1E431E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875EB95F1494BB38749E2E72826BC0B2 /* Pods-TYSMTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYSMTimer_Example/Pods-TYSMTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYSMTimer_Example/Pods-TYSMTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D898F4400870DFAE5A7CD53AF8CDB988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183A3D8D1CFF09A0422ABAC489411ECA /* TYSMTimer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYSMTimer/TYSMTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYSMTimer/TYSMTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYSMTimer/TYSMTimer.modulemap";
+				PRODUCT_MODULE_NAME = TYSMTimer;
+				PRODUCT_NAME = TYSMTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1320A8729500BD9E387D2FCDB73A02 /* Build configuration list for PBXNativeTarget "TYSMTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D898F4400870DFAE5A7CD53AF8CDB988 /* Debug */,
+				1E90F99594E729BC3936CBFE8010603C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59E0C81593383919A12CE9003CE53CD /* Build configuration list for PBXNativeTarget "Pods-TYSMTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C6679AA44C2BC84FCB338E1BF55BE /* Debug */,
+				56C37AED72C0FF7F1EC2E03DD26DCFC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E922C271CFB6A5712C6FBD15A560D91C /* Build configuration list for PBXNativeTarget "Pods-TYSMTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F24149DD6346ED72200C314F1E431E /* Debug */,
+				3E8814AF9F3F998C4118B094E614CDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
